@@ -1,0 +1,18 @@
+.p1 {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
+
+.p2 {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+}
+
+.p {
+  width: 100px;
+  height: 100px;
+  opacity: 0.5;
+  background-color: red;
+}

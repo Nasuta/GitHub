@@ -1,0 +1,36 @@
+.beautiful {
+  width: 600px;
+  font-size: 16px;
+  background: #7b8ea2;
+  border: 5px solid #53687e;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 16px;
+  color: #fff;
+  padding: 15px 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: left;
+}
+
+.beautiful input {
+  margin-top: 10px;
+}
+
+.beautiful label {
+  margin-top: 10px;
+}
+
+#button {
+  font-size: 16px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+
+  color: #fff;
+  background-color: #53687e;
+  border: 1px solid #99a6b5;
+  text-align: center;
+  padding: 1px;
+  margin-top: 10px;
+}
+
+

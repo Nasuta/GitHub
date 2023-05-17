@@ -1,0 +1,42 @@
+body {
+  background-color: rgba(181, 211, 192, 0.766);
+  font-family: Arial;
+}
+
+h1 {
+  color: rgb(30, 53, 30);
+  font-size: 40px;
+  text-align: center;
+}
+
+p {
+  color: rgb(30, 53, 30);
+  font-size: 16px;
+  text-align: center;
+}
+
+#dodaj {
+  color: rgb(255, 254, 254);
+  background-color: rgb(30, 53, 30);
+  border: none;
+  width: 250px;
+  padding: 16px 32px;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+#usun {
+  color: rgb(255, 254, 254);
+  background-color: rgb(30, 53, 30);
+  border: none;
+  width: 250px;
+  padding: 16px 32px;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  cursor: pointer;
+}

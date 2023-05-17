@@ -1,0 +1,54 @@
+.container {
+    height: 550px;
+    width: 200px;
+    background-color: #a6a9b6;
+    position: relative;
+    font-size: 12px;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  
+  .header {
+    height: 50px;
+    width: 200px;
+    background-color: #e55252;
+    position: absolute;
+    top: 0px;
+  }
+  
+  .text-1 {
+    height: 150px;
+    width: 200px;
+    background-color: #8aa2db;
+    position: absolute;
+    top: 50px;
+    
+  }
+  
+  .text-3 {
+    height: 150px;
+    width: 200px;
+    background-color: #db8ad0;
+    position: absolute;
+    top: 350px;
+    
+  }
+  
+  .text-2 {
+    height: 150px;
+    width: 200px;
+    background-color: #8adbc0;
+    position: absolute;
+    top: 200px;
+    
+  }
+  
+  .footer {
+    height: 50px;
+    width: 200px;
+    background-color: #9a66b2;
+    position: absolute;
+    bottom: 0px;
+  }
+  

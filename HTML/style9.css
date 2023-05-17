@@ -1,0 +1,19 @@
+.p {
+  font-size: 20px;
+  color: white;
+  margin-left: 10%;
+
+  max-height: 10px;
+}
+
+.wrap {
+  height: 500px;
+  width: 300px;
+  background-color: #808080;
+}
+.box {
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+  background-color: #fea500;
+}

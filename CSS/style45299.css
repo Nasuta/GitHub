@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  font-family: "Roboto", sans-serif;
+  background-color: #222;
+  color: #eee;
+}
+
+h2,
+p {
+  text-transform: uppercase;
+}
+
+#gallery {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+figure {
+  display: inline-block;
+  width: 33%;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+figure img {
+  width: 100%;
+  border: 2px solid #444;
+}
+
+@media only screen and (max-width: 992px) {
+  figure {
+    width: 49%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  figure {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 480px) {
+  #gallery {
+    width: 100%;
+  }
+}

@@ -1,0 +1,23 @@
+.wrap {
+  background-color: #faebd6;
+  height: 300px;
+  width: 1000px;
+}
+
+.h1 {
+  font-size: 40px;
+  color: #ff0000;
+  margin-left: 10px;
+}
+
+.p {
+  font-size: 20px;
+  color: #a42423;
+  margin-left: 10px;
+}
+
+.p1 {
+  font-size: 20px;
+  color: #00008f;
+  margin-left: 10px;
+}
