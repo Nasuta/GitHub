@@ -1,0 +1,84 @@
+section {
+  padding: 60px 0;
+}
+
+.showcase-img {
+  background-size: cover;
+  background-position: center;
+}
+
+.showcase {
+  padding: 0;
+}
+
+.showcase-text {
+  padding: 50px;
+}
+
+/* .text {
+  padding-top: auto;
+} */
+
+.team {
+  padding-bottom: 10px;
+}
+.team-item {
+  max-width: 200px;
+}
+
+.call-to-action {
+  background-image: url(slider-1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.btn {
+  background-color: rgb(15, 19, 16);
+  border-color: rgb(15, 19, 16);
+}
+
+.btn:hover {
+  background-color: #1a241aae;
+  border-color: rgb(15, 19, 16);
+}
+
+.conteiner {
+  margin-top: 60px;
+}
+
+@media (max-width: 768px) {
+  .services {
+    padding-top: 50px;
+    padding-bottom: 10px;
+  }
+
+  .service-item {
+    padding-bottom: 50px;
+  }
+
+  .service-item .team-item {
+    margin-bottom: 30px;
+  }
+
+  .service-item:last-child,
+  .team-item-last {
+    margin: 0;
+  }
+
+  .team-item {
+    max-width: 200px;
+  }
+
+  .text {
+    padding-bottom: 10%;
+    text-align: center;
+  }
+
+  .showcase-img {
+    height: 300px;
+  }
+
+  .form-control {
+    text-align: center;
+  }
+}
