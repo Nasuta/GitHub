@@ -1,0 +1,52 @@
+.spark {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background-color: orange;
+  border-radius: 50%;
+  opacity: 0.9;
+  animation: fly 8s ease infinite alternate;
+}
+
+@keyframes fly {
+  0% {
+    opacity: 0.9;
+    transform: translate(0, 0);
+  }
+  100% {
+    opacity: 0;
+    transform: translate(calc(100vw - 10px), calc(-100vh + 10px));
+  }
+}
+
+hr {
+  border: 3px solid orange;
+}
+
+h1 {
+  color: rgba(63, 61, 58, 0.902);
+}
+
+.cat {
+  margin-top: -50px;
+}
+
+@media (max-width: 768px) {
+  #skills {
+    padding-right: 5%;
+    padding-left: 5%;
+  }
+}
+
+@media (max-width: 560px) {
+  #skills {
+    padding-right: 20%;
+    padding-left: 20%;
+  }
+}
+
+@media (max-width: 360px) {
+  p {
+    margin-bottom: 40px;
+  }
+}
