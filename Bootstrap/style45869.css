@@ -1,0 +1,31 @@
+.accordion,
+.container {
+  padding-left: 10%;
+  padding-right: 10%;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+hr {
+  width: 95%;
+
+  margin: 15px auto;
+}
+
+.accordion-body {
+  margin: auto;
+  text-align: justify;
+}
+
+.accordion-button:not(.collapsed) {
+  color: inherit;
+}
+
+button.accordion-button:focus {
+  box-shadow: inherit;
+}
+
+.accordion-body {
+  display: inherit;
+}
+
