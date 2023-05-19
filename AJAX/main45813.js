@@ -35,7 +35,7 @@ const getData = () => {
 
         pId.innerText = `User Id: ${user.id}`;
         pName.innerText = `Name: ${user.name}`;
-        pWebSite.innerText = `Website: ${user.website} <br/> ======`;
+        pWebSite.innerHTML = `Website: ${user.website} <br/> --------`;
 
         body.appendChild(pId);
         body.appendChild(pName);
